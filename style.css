@@ -1,0 +1,161 @@
+/*清除原样式*/
+* {
+    
+    background-position: inherit;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+
+/*------NAV BAR SECTION--------*/
+
+ /* Add a black background color to the top navigation */
+ .topnav {
+    background-color:royalblue;
+    overflow: hidden;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: wheat;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: none;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  } 
+
+
+
+/*-------END OF THE NAV BAR SECTION---------*/
+
+
+/*-------BEGINNING OF THE BODY SECTION----------*/
+body{
+
+    background-image: url("/pictures/sea-background.jpg");
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-stretch: expanded;
+    background-color: black;
+}
+
+.paragraph{
+
+font-size: larger;
+color: lightblue;
+}
+
+/*--------END OF THE BODY SECTION-----------*/
+
+#tit {
+    width: 80%;
+    height: 50px;
+    background: #ffffff;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    margin:0 auto;
+}
+    #tit cen {
+        width: auto;
+        top: 0px;
+        height: 40px;
+        text-align:center;
+    }
+
+#ri {
+    width: 100%;
+    top: 0px;
+    height: 50px;
+    position:absolute;
+}
+
+#ri wo {
+      width: auto;
+      height: 50px;
+      float: right;
+      font-size: 16px;
+      font-family: 微软雅黑;
+      position: relative;
+      top: 50%; /*偏移*/
+      margin-top: -8px;
+    }
+#titbel {
+    margin-top:270px;
+    margin-left:15%;
+    font-weight:850;
+    font-size: 50px;
+    font-family: 微软雅黑;
+}
+#maintext {
+    width:70%;
+    height:auto;
+    margin: 0 auto;
+}
+
+#maintext #textp {
+        border-width:1;
+        margin-top:30px;
+        width:100%;
+        float:left;
+        font-size: 18px;
+        font-family: 微软雅黑;
+    }
+
+#maintext #textp #line {
+        text-align:center;
+        width:100%;
+        height:2px;
+        background:lightblue;
+    }
+
+
+#pic {
+      top: 90px;
+      z-index: -1;
+      width: 100%;
+      height: 250px;
+      position:absolute;
+}
+    #pic #sh{margin:0 auto;width:70%;height:250px;vertical-align:middle;position: relative;}
+    #pic #sh img {text-align:center;height: 250px;width: auto;margin: 0 auto;}
+
+line {
+  width: 100%;
+}
+
+line.margin {
+    height: 5px;
+    width: 100%;
+}
+    line img{
+        height: 5px;
+        width: 2000px;
+        background-size: cover;
+    }
