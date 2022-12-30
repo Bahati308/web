@@ -57,13 +57,23 @@
 body{
 
     background-image: url("/pictures/sea-background.jpg");
+    background-position: center;
     margin: 0px;
     padding: 0px;
     border: 0px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-size:larger;
     font-stretch: expanded;
     background-color: black;
+}
+/*------FOOTER TAG--------------*/
+footer{
+
+
+  text-align: center;
+  padding: 3px;
+  background-color: skyblue;
+  color: white;
 }
 
 .paragraph{
