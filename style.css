@@ -14,14 +14,14 @@
 /*------NAV BAR SECTION--------*/
 
  /* Add a black background color to the top navigation */
- .topnav {
+ .nav {
     background-color:royalblue;
     overflow: hidden;
 
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .nav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -32,9 +32,10 @@
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .nav a:hover {
     background-color: wheat;
     color: black;
+    border-radius: 8px;
   }
   
   /* Add an active class to highlight the current page */
@@ -56,15 +57,29 @@
 /*-------BEGINNING OF THE BODY SECTION----------*/
 body{
 
-    background-image: url("/pictures/sea-background.jpg");
-    background-position: center;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+    background-image: url("night-sky-background-overlays-3-.jpg");
+    background-position:center;
+    border:transparent;
     font-family: 'Courier New', Courier, monospace;
     font-size:larger;
-    font-stretch: expanded;
+    font-stretch:normal;
     background-color: black;
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+p{
+  color: white;
+}
+.paragraph{
+  column-count: 4;
+  column-gap: 20px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  font-size: medium;
+  text-align: center;
 }
 /*------FOOTER TAG--------------*/
 footer{
@@ -75,11 +90,11 @@ footer{
   background-color: skyblue;
   color: white;
 }
-
-.paragraph{
-
-font-size: larger;
-color: lightblue;
+.fontawesomeicon {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: red;
 }
 
 /*--------END OF THE BODY SECTION-----------*/
