@@ -12,6 +12,9 @@
 
 
 /*------NAV BAR SECTION--------*/
+nav{
+  text-shadow: #f19b9b;
+}
 
  /* Add a black background color to the top navigation */
  .nav {
