@@ -27,17 +27,15 @@ nav{
   .nav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-weight: bolder;
   }
-  
-  /* Change the color of links on hover */
-  .nav a:hover {
-    background-color: wheat;
-    color: black;
+
+  .nav a:hover{
+    color: orange;
     border-radius: 8px;
   }
   
@@ -76,8 +74,13 @@ body{
 p{
   color: white;
 }
+
+h1,h2 {
+    color: orange;
+    text-decoration-color: blue;
+}
 .paragraph{
-  column-count: 4;
+  column-count: 3;
   column-gap: 20px;
   column-rule-style: solid;
   column-rule-width: 1px;
@@ -97,7 +100,7 @@ footer{
   display: inline-block;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  color: red;
+  color:white;
 }
 
 /*--------END OF THE BODY SECTION-----------*/
